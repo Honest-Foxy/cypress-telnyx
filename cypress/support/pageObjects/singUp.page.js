@@ -80,6 +80,7 @@ class SignUpPage {
         cy.get('body').then(($body) => {
             if ($body.find(errorMessage).length > 0) {
                 page.clickElement(createAccountButton);
+                this.reclickCreateAccountButton();
             }
         })
     }
