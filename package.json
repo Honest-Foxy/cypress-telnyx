@@ -1,0 +1,17 @@
+{ 
+  "name": "cypress-telnyx",
+  "version": "1.0.0",
+  "author": "Honest-Foxy",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.0",
+    "randomstring": "^1.2.2"
+  },
+  "devDependencies": {
+    "cypress-real-events": "^1.7.1"
+  },
+  "scripts": {
+    "cypress:run": "npx cypress run",
+    "cypress:open": "npx cypress open"
+  }
+}
