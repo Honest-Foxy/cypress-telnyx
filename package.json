@@ -12,6 +12,7 @@
   },
   "scripts": {
     "cypress:run": "npx cypress run",
+    "cypress:run:chrome": "npx cypress run --config-file chrome.config.js --browser chrome",
     "cypress:open": "npx cypress open"
   }
 }

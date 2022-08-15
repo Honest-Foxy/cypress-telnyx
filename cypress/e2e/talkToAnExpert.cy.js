@@ -12,8 +12,8 @@ before(() => {
     cy.openMainURL();
 })
 
-describe('Log in check', () => {
-    it('Should log in with valid data', () => {
+describe('Talk to expert check', () => {
+    it('Should fill talk to an expert form with valid data', () => {
         mainPage.clickTalkToAnExpertButton();
         talkExpert.selectOption('Support');
         talkExpert.enterFirstName(name);
